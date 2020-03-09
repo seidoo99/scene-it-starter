@@ -1,16 +1,44 @@
 body {
-	background-color: #B2E9FD;
+    background-color: #B2E9FD;
 }
 
 .header h2 {
-	color: #DC4247;
+    color: #DC4247;
 }
 
 .header p {
-	color: #50524F;
+    color: #50524F;
 }
 
 .results {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
+.btn .btn-primary {
+    width: 10px
+}
+
+.year {
+    display: flex;
+    justify-content: flex-end
+}
+
+.card-title {
+    padding-right: 10px;
+}
+
+.card {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+span {
+    font-size: 12px;
+    margin-top: 15px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
