@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    localStorage.getItem("watchlist");
-
     function renderMovies(movieArray) {
         movieHTML = movieArray.map(function(currentMovie) {
             return `
@@ -14,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         return movieHTML.join('');
     }
-    var content = document.getElementById("movies-container");
-    content.innerHTML = renderMovies(JSON.parse(localStorage.getItem("watchlist")));
+    var content = document.getElementById('movieContainer');
+    content.innerHTML = renderMovies(JSON.parse(localStorage.getItem('watchlist')));
 });
